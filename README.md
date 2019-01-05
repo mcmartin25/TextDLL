@@ -1,2 +1,17 @@
 # TextDLL
 Text AppData Library Create Application
+
+## How do I have this idea?
+Just because the .dll files in Windows system. 
+One day, someone said that create .dll is a hard thing (forgot who said that),
+and then there is a sudden idea, "Why don't i make an application that makes simpler data files?"
+
+So that's why this thing was born.
+
+## How to use
+It will generate data of properties and value in file with plain text extension (.txt)
+Also, there is a preview function for preview last file or any files you want.
+
+## Please Mind that...
+This application project is not stable.
+This project may update irregularly.
