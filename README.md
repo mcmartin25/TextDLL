@@ -7,6 +7,8 @@ by Chor Tsun Lam and Chor Tsun Lam Media LTD.
 
 Copyright 2018-2019 (c) Martin C. 
 
+___*This is also one of my testing project and / or draft___
+
 
 ## How do I have this idea?
 Just because the .dll files in Windows system. 
