@@ -1,5 +1,12 @@
 # TextDLL
-Text AppData Library Create Application
+Text AppData Library (TextDLL) Create Application 
+
+Under Construction 
+
+by Chor Tsun Lam and Chor Tsun Lam Media LTD. 
+
+Copyright 2018-2019 (c) Martin C. 
+
 
 ## How do I have this idea?
 Just because the .dll files in Windows system. 
