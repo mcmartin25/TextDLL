@@ -21,6 +21,8 @@ So that's why this thing was born.
 It will generate data of properties and value in file with plain text extension (.txt)
 Also, there is a preview function for preview last file or any files you want.
 
+You can use it to replace Dynamic Link Library (.dll) temporarily. 
+
 ## Please Mind that...
 This application project is not stable.
 This project may update irregularly.
