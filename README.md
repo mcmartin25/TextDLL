@@ -23,6 +23,25 @@ Also, there is a preview function for preview last file or any files you want.
 
 You can use it to replace Dynamic Link Library (.dll) temporarily. 
 
+## How to read
+For example, this is the test file:
+```
+a = 12
+b = 23
+```
+
+You can read  by using these command below:
+
+- ```text.split("C:\text.txt") 'Use string split```
+- ```Dim sw as StreamReader 'Use string split in StreamWriter```
+- Et cetera.
+
+The result may display as:
+```
+The value of a is 12
+The value of b is 23
+```
+
 ## Please Mind that...
 This application project is not stable.
 This project may update irregularly.
