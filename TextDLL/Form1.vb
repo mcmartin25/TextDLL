@@ -17,6 +17,7 @@ Public Class Form1
                             fn = txtFileName.Text
                             Dim objWriter As New StreamWriter(fn + ".txt", True)
                             If Not txtProperty1.Text.Contains("=") And Not txtValue1.Text.Contains("=") Then
+                                objWriter.Write("[TextDLL]" + vbCrLf)
                                 objWriter.Write(txtProperty1.Text + " = " + txtValue1.Text + vbCrLf)
                                 objWriter.Close()
                                 fn2 = fn + ".txt"
@@ -92,7 +93,6 @@ All the TextDLL will save in the same location as this application.", Me, New Po
     Private Sub btnAbout_Click(sender As Object, e As EventArgs) Handles btnAbout.Click
         MsgBox("Text AppData Library (TextDLL) Create Application" + vbCrLf +
                "Under Construction" + vbCrLf +
-               "by Chor Tsun Lam and Chor Tsun Lam Media LTD." + vbCrLf +
                "Copyright 2018-2019 (c) Martin C." + vbCrLf +
                "Click About > License to view the application license.", MsgBoxStyle.Information, "About")
     End Sub

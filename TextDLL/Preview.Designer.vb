@@ -27,35 +27,33 @@ Partial Class Preview
         Me.btnBrowse = New System.Windows.Forms.Button()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.txtFileName = New System.Windows.Forms.TextBox()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.SuspendLayout()
         '
         'txtPreview
         '
-        Me.txtPreview.Location = New System.Drawing.Point(22, 70)
-        Me.txtPreview.Margin = New System.Windows.Forms.Padding(6, 5, 6, 5)
+        Me.txtPreview.Location = New System.Drawing.Point(12, 40)
         Me.txtPreview.Multiline = True
         Me.txtPreview.Name = "txtPreview"
         Me.txtPreview.ReadOnly = True
-        Me.txtPreview.Size = New System.Drawing.Size(473, 312)
+        Me.txtPreview.Size = New System.Drawing.Size(260, 180)
         Me.txtPreview.TabIndex = 0
         '
         'btnBack
         '
         Me.btnBack.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnBack.Location = New System.Drawing.Point(266, 438)
-        Me.btnBack.Margin = New System.Windows.Forms.Padding(6, 5, 6, 5)
+        Me.btnBack.Location = New System.Drawing.Point(145, 250)
         Me.btnBack.Name = "btnBack"
-        Me.btnBack.Size = New System.Drawing.Size(138, 40)
+        Me.btnBack.Size = New System.Drawing.Size(75, 23)
         Me.btnBack.TabIndex = 25
         Me.btnBack.Text = "Back"
         Me.btnBack.UseVisualStyleBackColor = True
         '
         'btnBrowse
         '
-        Me.btnBrowse.Location = New System.Drawing.Point(117, 438)
-        Me.btnBrowse.Margin = New System.Windows.Forms.Padding(6, 5, 6, 5)
+        Me.btnBrowse.Location = New System.Drawing.Point(64, 250)
         Me.btnBrowse.Name = "btnBrowse"
-        Me.btnBrowse.Size = New System.Drawing.Size(138, 40)
+        Me.btnBrowse.Size = New System.Drawing.Size(75, 23)
         Me.btnBrowse.TabIndex = 24
         Me.btnBrowse.Text = "Browse"
         Me.btnBrowse.UseVisualStyleBackColor = True
@@ -67,24 +65,33 @@ Partial Class Preview
         '
         'txtFileName
         '
-        Me.txtFileName.Location = New System.Drawing.Point(22, 21)
-        Me.txtFileName.Margin = New System.Windows.Forms.Padding(6, 5, 6, 5)
+        Me.txtFileName.Location = New System.Drawing.Point(12, 12)
         Me.txtFileName.Name = "txtFileName"
         Me.txtFileName.ReadOnly = True
-        Me.txtFileName.Size = New System.Drawing.Size(473, 33)
+        Me.txtFileName.Size = New System.Drawing.Size(260, 22)
         Me.txtFileName.TabIndex = 26
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(101, 226)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(80, 16)
+        Me.CheckBox1.TabIndex = 27
+        Me.CheckBox1.Text = "CheckBox1"
+        Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'Preview
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 21.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(521, 492)
+        Me.ClientSize = New System.Drawing.Size(284, 281)
+        Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.txtFileName)
         Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.btnBrowse)
         Me.Controls.Add(Me.txtPreview)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
-        Me.Margin = New System.Windows.Forms.Padding(6, 5, 6, 5)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Preview"
@@ -99,4 +106,5 @@ Partial Class Preview
     Friend WithEvents btnBrowse As Button
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents txtFileName As TextBox
+    Friend WithEvents CheckBox1 As CheckBox
 End Class
