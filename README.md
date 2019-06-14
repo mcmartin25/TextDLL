@@ -3,7 +3,7 @@ Text AppData Library (TextDLL) Create Application
 
 Under Construction 
 
-by Chor Tsun Lam and Chor Tsun Lam Media LTD. 
+by Martin C. (Chor Tsun Lam)
 
 Copyright 2018-2019 (c) Martin C. 
 
