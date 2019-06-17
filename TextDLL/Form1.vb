@@ -17,8 +17,8 @@ Public Class Form1
                             fn = txtFileName.Text
                             Dim objWriter As New StreamWriter(fn + ".txt", True)
                             If Not txtProperty1.Text.Contains("=") And Not txtValue1.Text.Contains("=") Then
-                                objWriter.Write("[TextDLL]" + vbCrLf)
-                                objWriter.Write(txtProperty1.Text + " = " + txtValue1.Text + vbCrLf)
+                                objWriter.Write("[TextDLL]")
+                                objWriter.Write(vbCrLf + txtProperty1.Text + "=" + txtValue1.Text + ";")
                                 objWriter.Close()
                                 fn2 = fn + ".txt"
                                 btnCreate.Text = "Add line"
@@ -48,8 +48,8 @@ Public Class Form1
                             If txtValue1.Text.Length > 0 Then
                                 fn = txtFileName.Text
                                 Dim objWriter As New StreamWriter(fn + ".txt", True)
-                                If Not txtProperty1.Text.Contains("=") And Not txtValue1.Text.Contains("=") Then
-                                    objWriter.Write(txtProperty1.Text + " = " + txtValue1.Text + vbCrLf)
+                                If Not txtProperty1.Text.Contains("=") And Not txtValue1.Text.Contains("=") And Not txtProperty1.Text.Contains(";") And Not txtValue1.Text.Contains(";") Then
+                                    objWriter.Write(vbCrLf + txtProperty1.Text + "=" + txtValue1.Text + ";")
                                     objWriter.Close()
                                     fn2 = fn + ".txt"
                                     btnCreate.Text = "Add line"

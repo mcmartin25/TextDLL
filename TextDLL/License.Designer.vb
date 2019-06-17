@@ -28,30 +28,34 @@ Partial Class License
         '
         'txtContent
         '
-        Me.txtContent.Location = New System.Drawing.Point(19, 12)
+        Me.txtContent.Location = New System.Drawing.Point(10, 7)
+        Me.txtContent.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtContent.Multiline = True
         Me.txtContent.Name = "txtContent"
         Me.txtContent.ReadOnly = True
         Me.txtContent.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtContent.Size = New System.Drawing.Size(762, 374)
+        Me.txtContent.Size = New System.Drawing.Size(417, 215)
         Me.txtContent.TabIndex = 0
         '
         'btnOK
         '
-        Me.btnOK.Location = New System.Drawing.Point(293, 392)
+        Me.btnOK.Location = New System.Drawing.Point(160, 224)
+        Me.btnOK.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnOK.Name = "btnOK"
-        Me.btnOK.Size = New System.Drawing.Size(214, 46)
+        Me.btnOK.Size = New System.Drawing.Size(117, 26)
         Me.btnOK.TabIndex = 1
         Me.btnOK.Text = "OK"
         Me.btnOK.UseVisualStyleBackColor = True
         '
         'License
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 21.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(436, 257)
         Me.Controls.Add(Me.btnOK)
         Me.Controls.Add(Me.txtContent)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.MaximizeBox = False
         Me.Name = "License"
         Me.Text = "License"
         Me.ResumeLayout(False)

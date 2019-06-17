@@ -27,7 +27,7 @@ Partial Class Preview
         Me.btnBrowse = New System.Windows.Forms.Button()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.txtFileName = New System.Windows.Forms.TextBox()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.btnVisualMode = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'txtPreview
@@ -42,7 +42,7 @@ Partial Class Preview
         'btnBack
         '
         Me.btnBack.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnBack.Location = New System.Drawing.Point(145, 250)
+        Me.btnBack.Location = New System.Drawing.Point(197, 250)
         Me.btnBack.Name = "btnBack"
         Me.btnBack.Size = New System.Drawing.Size(75, 23)
         Me.btnBack.TabIndex = 25
@@ -51,7 +51,7 @@ Partial Class Preview
         '
         'btnBrowse
         '
-        Me.btnBrowse.Location = New System.Drawing.Point(64, 250)
+        Me.btnBrowse.Location = New System.Drawing.Point(12, 250)
         Me.btnBrowse.Name = "btnBrowse"
         Me.btnBrowse.Size = New System.Drawing.Size(75, 23)
         Me.btnBrowse.TabIndex = 24
@@ -71,22 +71,21 @@ Partial Class Preview
         Me.txtFileName.Size = New System.Drawing.Size(260, 22)
         Me.txtFileName.TabIndex = 26
         '
-        'CheckBox1
+        'btnVisualMode
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(101, 226)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(80, 16)
-        Me.CheckBox1.TabIndex = 27
-        Me.CheckBox1.Text = "CheckBox1"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.btnVisualMode.Location = New System.Drawing.Point(105, 250)
+        Me.btnVisualMode.Name = "btnVisualMode"
+        Me.btnVisualMode.Size = New System.Drawing.Size(75, 23)
+        Me.btnVisualMode.TabIndex = 27
+        Me.btnVisualMode.Text = "Visual Mode"
+        Me.btnVisualMode.UseVisualStyleBackColor = True
         '
         'Preview
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 281)
-        Me.Controls.Add(Me.CheckBox1)
+        Me.Controls.Add(Me.btnVisualMode)
         Me.Controls.Add(Me.txtFileName)
         Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.btnBrowse)
@@ -106,5 +105,5 @@ Partial Class Preview
     Friend WithEvents btnBrowse As Button
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents txtFileName As TextBox
-    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents btnVisualMode As Button
 End Class
