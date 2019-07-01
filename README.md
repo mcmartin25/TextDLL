@@ -7,6 +7,8 @@ by Martin C. (Chor Tsun Lam)
 
 Copyright 2018-2019 (c) Martin C. 
 
+[![GitHub license](https://img.shields.io/github/license/mcmartin25/TextDLL.svg)](https://github.com/mcmartin25/TextDLL/blob/master/LICENSE)
+
 ___*This is also one of my testing project and / or draft___
 
 
